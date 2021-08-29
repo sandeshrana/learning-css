@@ -1,7 +1,9 @@
 import Link from 'next/link'
 import { BsBatteryFull, BsUnlock } from 'react-icons/bs'
-import { AiFillSignal, } from 'react-icons/ai'
-import { IoIosWifi } from 'react-icons/io'
+import { AiFillSignal, AiOutlineCamera } from 'react-icons/ai'
+import { IoIosWifi, IoIosFlashlight } from 'react-icons/io'
+
+
 
 
 //import above
@@ -70,6 +72,17 @@ export default function Iphone() {
               </div>
               <div className="">
                 <img className='ml-6 rounded-full w-10 h-10 mx-auto left-4' src="https://images.unsplash.com/photo-1582055624872-adf3f81ebc7f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGZvb3RiYWxsfGVufDB8MnwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" alt="" />
+              </div>
+
+              <div className=""></div>
+            </div>
+            {/* canara icons */}
+            <div className="flex mt-8  justify-between">
+              <div className="">
+                <IoIosFlashlight className='h-8 w-8 bg-gray-300 rounded-full p-2 '></IoIosFlashlight>
+              </div>
+              <div className="">
+                <AiOutlineCamera className='h-8 w-8 bg-gray-300 rounded-full p-2'></AiOutlineCamera>
               </div>
             </div>
           </div>
