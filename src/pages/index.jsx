@@ -1,7 +1,6 @@
 import Link from 'next/link'
-// import Product from '../components/Product'
-// import Footer from '../components/Footer'
-import Header from '../components/Header'
+import Iphone from '../components/Iphone'
+
 
 
 //main fn()
@@ -12,9 +11,8 @@ export default function index() {
   return (
     <>
       <div>
-        <Header />
-        {/* <Footer />
-        <Product /> */}
+        <Iphone />
+
       </div>
     </>
   )

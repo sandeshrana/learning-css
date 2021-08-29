@@ -8,9 +8,8 @@ export default function Header() {
   //main return
   return (
     <>
-      { /* 👇 Code starts from here */}
-      <div>
-        <div>Heading 1</div>
+      { /* 👇 Code starts from here */} <div>
+        <div>Heading 11</div>
       </div>
     </>
   )
